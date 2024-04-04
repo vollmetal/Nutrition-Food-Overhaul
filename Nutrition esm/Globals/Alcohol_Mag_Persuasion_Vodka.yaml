@@ -1,0 +1,8 @@
+FormKey: 000836:Nutrition.esm
+MajorRecordFlagsRaw: 64
+EditorID: Alcohol_Mag_Persuasion_Vodka
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 0.05
+MajorFlags:
+- Constant

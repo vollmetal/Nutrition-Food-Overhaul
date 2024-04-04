@@ -1,0 +1,33 @@
+FormKey: 1E42F5:Starfield.esm
+EditorID: co_food_Magz5_ShepherdsPie
+Description:
+  TargetLanguage: English
+  Value: Tavern-style shepherd's pie, with braised meat and roast vegetables under mashed potatoes. A Kay's House favorite.
+WorkbenchKeyword: 102152:Starfield.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 17624
+  Data:
+    MutagenObjectType: HasPerkConditionData
+    FirstParameter: 1F0C46:Starfield.esm
+  ComparisonValue: 1
+ConstructableComponents:
+- Component: 003A1F:Starfield.esm
+  Count: 1
+- Component: 003A26:Starfield.esm
+  Count: 1
+- Component: 07782E:Starfield.esm
+  Count: 1
+- Component: 092B98:Starfield.esm
+  Count: 1
+- Component: 29B03B:Starfield.esm
+  Count: 1
+- Component: 29B033:Starfield.esm
+  Count: 1
+CreatedObject: 249C23:Starfield.esm
+AmountProduced: 1
+LearnMethod: DefaultOrConditions
+Categories:
+- 2C6660:Starfield.esm
+RECF: 0

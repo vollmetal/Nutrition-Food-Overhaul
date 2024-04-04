@@ -1,0 +1,8 @@
+FormKey: 000827:Nutrition.esm
+MajorRecordFlagsRaw: 64
+EditorID: FoodMag_Value_RestoreHealth_05
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 5
+MajorFlags:
+- Constant

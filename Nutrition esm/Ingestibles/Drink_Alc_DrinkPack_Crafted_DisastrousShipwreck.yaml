@@ -1,0 +1,63 @@
+FormKey: 29B042:Starfield.esm
+EditorID: Drink_Alc_DrinkPack_Crafted_DisastrousShipwreck
+ObjectBounds:
+  First: -0.068115234, -0.03515625, -0.00289917
+  Second: 0.07092285, 0.037139893, 0.21643066
+ODTY: 0
+Transforms:
+  InventoryIcon: 02958C:Starfield.esm
+  Inventory: 03D201:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Disastrous Shipwreck
+Keywords:
+- 055ECC:Starfield.esm
+- 14253C:Starfield.esm
+- 2CF28A:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_crated_consumables\CraftedFood_Container_DisastrousShipWreck.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 9c0b4bd9-94a3-2830-95b8-a81a1a60e791
+DropdownSound:
+  Start: 9f4d405b-17a2-133b-d6b8-9f02bc4afa91
+CraftingSound:
+  Start: 580e474d-4c10-e197-848f-5a4632615aa7
+Description:
+  TargetLanguage: English
+  Value: A cocktail of soda, dark rum, and creme de menthe, with a pinch of gunpowder.
+Weight: 0.3
+Value: 350
+Flags:
+- NoAutoCalc
+- FoodItem
+Addiction: 000849:Nutrition.esm
+AddictionChance: 0.1
+ConsumeSound:
+  Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
+AddictionName:
+  TargetLanguage: English
+  Value: Alcoholism
+Effects:
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 00083F:Nutrition.esm
+  Data: {}
+  Magnitude: 00083E:Nutrition.esm
+  Duration: 00082F:Nutrition.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 150733:Starfield.esm
+  Data:
+    Magnitude: 20
+    Duration: 300
+  Magnitude: 000810:Nutrition.esm
+  Duration: 00082F:Nutrition.esm
+  EFIF: 0
+  MUID: 3

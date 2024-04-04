@@ -1,0 +1,29 @@
+FormKey: 29B01C:Starfield.esm
+EditorID: co_food_ExoticRecipes_AlienPie
+Description:
+  TargetLanguage: English
+  Value: A tangy mixture of minced alien fruits, baked into a light, flaky crust.
+WorkbenchKeyword: 102152:Starfield.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 17624
+  Data:
+    MutagenObjectType: IsResearchCompleteConditionData
+    FirstParameter: 389F07:Starfield.esm
+  ComparisonValue: 1
+ConstructableComponents:
+- Component: 003A26:Starfield.esm
+  Count: 1
+- Component: 0777E6:Starfield.esm
+  Count: 2
+- Component: 07782E:Starfield.esm
+  Count: 1
+- Component: 29B033:Starfield.esm
+  Count: 1
+CreatedObject: 29B063:Starfield.esm
+AmountProduced: 1
+LearnMethod: DefaultOrConditions
+Categories:
+- 2C6660:Starfield.esm
+RECF: 0

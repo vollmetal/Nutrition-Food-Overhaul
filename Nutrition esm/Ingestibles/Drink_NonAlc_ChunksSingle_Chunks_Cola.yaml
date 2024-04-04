@@ -1,0 +1,51 @@
+FormKey: 249C52:Starfield.esm
+EditorID: Drink_NonAlc_ChunksSingle_Chunks_Cola
+ObjectBounds:
+  First: -0.036010623, -0.036499135, 0
+  Second: 0.036010854, 0.036498904, 0.061706536
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 0664C5:Starfield.esm
+  Workbench: 0664C5:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Chunks Cola
+Keywords:
+- 055ECC:Starfield.esm
+- 249C5C:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\FoodChunk\Chunk_Food_Cola_Single.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: cb8245c9-d0fb-05dc-a73c-8edc91e6d6a5
+DropdownSound:
+  Start: 8ae049c9-1b29-2f3f-24bb-be9916c31297
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: A cube of synthetic cola.
+Resources:
+- Resource: 29B02C:Starfield.esm
+  Count: 1
+Weight: 0.2
+Value: 75
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 237E51:Starfield.esm
+  Data:
+    Magnitude: 2
+  Magnitude: 000832:Nutrition.esm
+  Duration: 00082F:Nutrition.esm
+  EFIF: 0
+  MUID: 1

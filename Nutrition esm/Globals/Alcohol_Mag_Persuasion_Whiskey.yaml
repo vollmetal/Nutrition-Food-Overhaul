@@ -1,0 +1,8 @@
+FormKey: 00083A:Nutrition.esm
+MajorRecordFlagsRaw: 64
+EditorID: Alcohol_Mag_Persuasion_Whiskey
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 0.05
+MajorFlags:
+- Constant

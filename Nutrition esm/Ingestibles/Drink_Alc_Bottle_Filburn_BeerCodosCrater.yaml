@@ -1,0 +1,67 @@
+FormKey: 249C1A:Starfield.esm
+EditorID: Drink_Alc_Bottle_Filburn_BeerCodosCrater
+ObjectBounds:
+  First: -0.029052734, -0.02911377, -0.00015258789
+  Second: 0.02911377, 0.029052734, 0.22058105
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 05451A:Starfield.esm
+  Workbench: 05451A:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Codos Crater
+Keywords:
+- 055ECC:Starfield.esm
+- 249C1D:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\BeverageMenu_CodosCrater.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: a89d4d93-93b9-4c2e-56fb-6a4f8fb88982
+DropdownSound:
+  Start: d3b24339-670b-3933-e56f-3fc3189523a6
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: A Filburn Agriculture beer, popular throughout the Freestar Collective.
+Resources:
+- Resource: 29B02E:Starfield.esm
+  Count: 1
+Weight: 0.5
+Value: 210
+Flags:
+- NoAutoCalc
+- FoodItem
+Addiction: 000849:Nutrition.esm
+AddictionChance: 0.1
+ConsumeSound:
+  Start: f96641c4-fd61-393a-cfc9-7f25fc5ae988
+AddictionName:
+  TargetLanguage: English
+  Value: Alcoholism
+Effects:
+- BaseEffect: 2D88C3:Starfield.esm
+  Data:
+    Magnitude: 12
+    Duration: 300
+  Magnitude: 000837:Nutrition.esm
+  Duration: 00082F:Nutrition.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 00083F:Nutrition.esm
+  Data:
+    Magnitude: 25
+  Magnitude: 00083E:Nutrition.esm
+  Duration: 00082F:Nutrition.esm
+  EFIF: 0
+  MUID: 2

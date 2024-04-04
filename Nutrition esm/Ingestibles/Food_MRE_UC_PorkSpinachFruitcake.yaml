@@ -1,0 +1,67 @@
+FormKey: 29A893:Starfield.esm
+EditorID: Food_MRE_UC_PorkSpinachFruitcake
+ObjectBounds:
+  First: -0.09094238, -0.08068848, 0
+  Second: 0.08050537, 0.08068848, 0.07128906
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 027C93:Starfield.esm
+  Workbench: 027C93:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: UC BattleMeal
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF290:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_Set\FoodDrink_Set_PortableKit_RoundTin01.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 764a40fa-493a-be4b-e8bd-29e91339e385
+DropdownSound:
+  Start: e02b4349-4221-7367-6a88-69dcdb0a38aa
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: A standard United Colonies field ration.
+Weight: 0.5
+Value: 210
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 272a42ec-27e1-4828-8a81-9451a0659e9b
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000807:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 2B9839:Starfield.esm
+  Data: {}
+  Magnitude: 000814:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 29A84D:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000818:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 2704CB:Starfield.esm
+  Data: {}
+  Magnitude: 000819:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 4

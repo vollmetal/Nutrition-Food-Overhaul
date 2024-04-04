@@ -1,0 +1,56 @@
+FormKey: 2C7232:Starfield.esm
+EditorID: Food_Canuck_Tourtiere
+ObjectBounds:
+  First: -0.041992188, -0.041992188, 0.00012207031
+  Second: 0.041992188, 0.041992188, 0.12023926
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 1017B3:Starfield.esm
+  Workbench: 03D203:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: CAN-uck! Tourtiere
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF287:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\PackagedFood_CAN-uckTourtiere.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 82d44b6f-dd2e-ac48-94ff-d2e90b2dff96
+DropdownSound:
+  Start: 98fc4756-55dd-c609-39b9-b315de44d9bb
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: CAN-uck! brand tourtiere, sold in their distinct and trademarked can.
+Weight: 0.4
+Value: 105
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000800:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 2B9839:Starfield.esm
+  Data:
+    Magnitude: 1
+    Duration: 300
+  Magnitude: 000812:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 2

@@ -1,0 +1,59 @@
+FormKey: 2C7219:Starfield.esm
+EditorID: Drink_Alc_DrinkPack_AdvNutrition_Whiskey
+ObjectBounds:
+  First: -0.051879883, -0.023651123, 0
+  Second: 0.051879883, 0.023651123, 0.14038086
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 091C34:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: 'Drink Pack: Whiskey'
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF286:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\BeverageDrinkPack_Whiskey.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 9c0b4bd9-94a3-2830-95b8-a81a1a60e791
+DropdownSound:
+  Start: 9f4d405b-17a2-133b-d6b8-9f02bc4afa91
+CraftingSound:
+  Start: 580e474d-4c10-e197-848f-5a4632615aa7
+Description:
+  TargetLanguage: English
+  Value: Advanced Nutrition's standard pack of whiskey.
+Resources:
+- Resource: 29B02D:Starfield.esm
+  Count: 1
+Weight: 0.3
+Value: 240
+Flags:
+- NoAutoCalc
+- FoodItem
+Addiction: 000849:Nutrition.esm
+AddictionChance: 0.1
+ConsumeSound:
+  Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
+AddictionName:
+  TargetLanguage: English
+  Value: Alcoholism
+Effects:
+- BaseEffect: 25A8B5:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 00082F:Nutrition.esm
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 00083B:Nutrition.esm
+  Data:
+    Magnitude: 25
+  Magnitude: 00083D:Nutrition.esm
+  Duration: 00082F:Nutrition.esm
+  EFIF: 0
+  MUID: 2

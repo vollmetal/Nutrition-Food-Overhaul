@@ -1,0 +1,48 @@
+FormKey: 2543B9:Starfield.esm
+EditorID: Food_Bread_Baguette
+ObjectBounds:
+  First: -0.24169922, -0.028045654, 0.0011901855
+  Second: 0.24169922, 0.026916504, 0.048217773
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 190641:Starfield.esm
+  Workbench: 190641:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Baguette
+Keywords:
+- 022CE6:Starfield.esm
+- 055ECC:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Architecture\Outpost\OutpostIndustrial\Interiors\Pod\OpiInd_Baguette01.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 4a2b4e1a-1422-b64e-4f3b-6270037ba9a6
+DropdownSound:
+  Start: b9f042d6-f91f-5bd9-3399-c470f9cf548c
+Description:
+  TargetLanguage: English
+  Value: A classic loaf of French bread.
+Resources:
+- Resource: 29B033:Starfield.esm
+  Count: 1
+Weight: 0.2
+Value: 55
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000802:Nutrition.esm
+  Duration: 000803:Nutrition.esm
+  EFIF: 0
+  MUID: 1

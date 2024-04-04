@@ -1,0 +1,67 @@
+FormKey: 20675D:Starfield.esm
+EditorID: Drink_Alc_ChunksSingle_Chunks_Wine
+ObjectBounds:
+  First: -0.03594963, -0.036804233, -2.0861626E-09
+  Second: 0.035949778, 0.03680416, 0.062286366
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 0664C5:Starfield.esm
+  Workbench: 0664C5:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Chunks Wine
+Keywords:
+- 055ECC:Starfield.esm
+- 249C5C:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\FoodChunk\Chunk_Food_Wine_Single.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: cb8245c9-d0fb-05dc-a73c-8edc91e6d6a5
+DropdownSound:
+  Start: 8ae049c9-1b29-2f3f-24bb-be9916c31297
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: 'A red wine-flavored Chunks food cube. '
+Weight: 0.2
+Value: 265
+Flags:
+- NoAutoCalc
+- FoodItem
+Addiction: 000849:Nutrition.esm
+AddictionChance: 0.1
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+  Value: Alcoholism
+Effects:
+- BaseEffect: 2D88C3:Starfield.esm
+  Data: {}
+  Magnitude: 000835:Nutrition.esm
+  Duration: 00082F:Nutrition.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 2704CB:Starfield.esm
+  Data: {}
+  Magnitude: 000839:Nutrition.esm
+  Duration: 00082F:Nutrition.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 29A84D:Starfield.esm
+  Data: {}
+  Magnitude: 000839:Nutrition.esm
+  Duration: 00082F:Nutrition.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Duration: 10
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 4

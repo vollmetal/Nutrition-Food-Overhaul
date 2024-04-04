@@ -1,0 +1,15 @@
+FormKey: 00084C:Nutrition.esm
+EditorID: ResGastroProduce
+Name:
+  TargetLanguage: English
+  Value: Produce
+Keywords:
+- 29B03C:Starfield.esm
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Rarity: Common
+SurfaceColor: '#006DD16D'
+ResourceType: Wine
+ActorValue: Null
+Produce: Null
+Interval: Null

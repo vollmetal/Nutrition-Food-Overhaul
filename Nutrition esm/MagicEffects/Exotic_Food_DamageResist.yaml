@@ -1,0 +1,23 @@
+FormKey: 000826:Nutrition.esm
+EditorID: Exotic_Food_DamageResist
+Name:
+  TargetLanguage: English
+  Value: Fortify Physical Damage Resistance
+Keywords:
+- 1080B9:Starfield.esm
+- 000851:Nutrition.esm
+ActorValue2: 0002E3:Starfield.esm
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+  Association: 00BF84:Starfield.esm
+UnkownInt2: 3
+CastType: FireAndForget
+UnkownInt3: 1065353216
+Flags:
+- DispelWithKeywords
+- NoArea
+- PowerAffectsMagnitude
+Unknown: 0x00000000000000000000000000000000000000000000
+Description:
+  TargetLanguage: English
+  Value: +<mag> Damage Resistance for <dur>

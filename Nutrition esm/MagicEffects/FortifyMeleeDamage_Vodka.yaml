@@ -1,0 +1,23 @@
+FormKey: 000846:Nutrition.esm
+EditorID: FortifyMeleeDamage_Vodka
+Name:
+  TargetLanguage: English
+  Value: Fortify Melee Damage
+Keywords:
+- 1080B9:Starfield.esm
+- 000852:Nutrition.esm
+PerkToApply: 000847:Nutrition.esm
+Archetype:
+  MutagenObjectType: MagicEffectArchetype
+  Type: Script
+UnkownInt2: 3
+CastType: FireAndForget
+UnkownInt3: 1065353216
+Flags:
+- DispelWithKeywords
+- NoArea
+- PowerAffectsMagnitude
+Unknown: 0x00000000000000000000000000000000000000000000
+Description:
+  TargetLanguage: English
+  Value: +<mag>% Melee Damage for <dur>

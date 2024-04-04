@@ -1,0 +1,54 @@
+FormKey: 249C4A:Starfield.esm
+EditorID: Food_Served_CanUck_Edmontonian
+ObjectBounds:
+  First: -0.13745117, -0.1361084, 0
+  Second: 0.13745117, 0.14282227, 0.085876465
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 027C93:Starfield.esm
+  Workbench: 027C93:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: CAN-uck! Edmontonian
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF287:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\theedmontonian\Food_RS_CanUck_Edmontonian.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 7f2e4656-a1b7-7cd1-e3c8-437d95cc45ad
+DropdownSound:
+  Start: 35ea4a6d-6e18-4d25-1a9e-3d6c3501b785
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: CAN-uck! brand pierogies and gravy. Uncanned.
+Weight: 0.5
+Value: 105
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000807:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 150733:Starfield.esm
+  Data: {}
+  Magnitude: 000810:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 2

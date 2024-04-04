@@ -1,0 +1,23 @@
+FormKey: 000823:Nutrition.esm
+EditorID: OE_Food_XPBonus
+Name:
+  TargetLanguage: English
+  Value: Fortify XP Bonus
+Keywords:
+- 1080B9:Starfield.esm
+- 000853:Nutrition.esm
+ActorValue2: 2D873C:Starfield.esm
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+  Association: 00BF7A:Starfield.esm
+UnkownInt2: 3
+CastType: FireAndForget
+UnkownInt3: 1065353216
+Flags:
+- DispelWithKeywords
+- NoArea
+- PowerAffectsMagnitude
+Unknown: 0x00000000000000000000000000000000000000000000
+Description:
+  TargetLanguage: English
+  Value: +<mag>% XP Gain for <dur>

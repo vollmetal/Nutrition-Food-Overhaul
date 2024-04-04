@@ -1,0 +1,30 @@
+FormKey: 29A84D:Starfield.esm
+EditorID: Produce Fortify O2 Recovery Rate
+Name:
+  TargetLanguage: English
+  Value: Produce Fortify O2 Recovery Rate
+Keywords:
+- 1080B9:Starfield.esm
+- 00084F:Nutrition.esm
+ActorValue2: 000359:Starfield.esm
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+  Association: 26A588:Starfield.esm
+UnkownInt2: 3
+CastType: FireAndForget
+UnkownInt3: 1065353216
+Flags:
+- DispelWithKeywords
+- NoArea
+- PowerAffectsMagnitude
+Unknown: 0x00000000000000000000000000000000000000000000
+Sounds:
+- Type: Release
+  Sound:
+    Start: 23f14b13-009e-f12a-72d3-c99db4707890
+- Type: Charge
+  Sound:
+    Start: 9de04650-989c-a358-7784-ed245f3f5682
+Description:
+  TargetLanguage: English
+  Value: +<mag>% O2 Recovery for <dur>

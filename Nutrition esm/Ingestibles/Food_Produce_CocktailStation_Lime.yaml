@@ -1,0 +1,56 @@
+FormKey: 04B1D7:Starfield.esm
+EditorID: Food_Produce_CocktailStation_Lime
+ObjectBounds:
+  First: -0.021118164, -0.020599365, -0.02758789
+  Second: 0.021026611, 0.020477295, 0.027648926
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 05451D:Starfield.esm
+  Workbench: 05451D:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Lime
+Keywords:
+- 022CE6:Starfield.esm
+- 055ECC:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: SetDressing\Bar_CocktailStation\Lime01.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 0f6747ee-efa9-af2a-3771-621e459497be
+DropdownSound:
+  Start: 0310407b-b3a6-3901-ec5a-6a04e426ab8c
+Description:
+  TargetLanguage: English
+  Value: A fresh lime, for those times when lemon just doesn't pack enough "zing."
+Resources:
+- Resource: 00084C:Nutrition.esm
+  Count: 1
+Weight: 0.2
+Value: 35
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 272a42ec-27e1-4828-8a81-9451a0659e9b
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 29A84D:Starfield.esm
+  Data:
+    Magnitude: 3
+  Magnitude: 000816:Nutrition.esm
+  Duration: 000803:Nutrition.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 2704CB:Starfield.esm
+  Data:
+    Magnitude: 8
+    Duration: 300
+  Magnitude: 000816:Nutrition.esm
+  Duration: 000803:Nutrition.esm
+  EFIF: 0
+  MUID: 1

@@ -1,0 +1,23 @@
+FormKey: 2B9839:Starfield.esm
+EditorID: Protein FortifyO2
+Name:
+  TargetLanguage: English
+  Value: Protein Fortify O2
+Keywords:
+- 1080B9:Starfield.esm
+- 000850:Nutrition.esm
+ActorValue2: 0002D5:Starfield.esm
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+  Association: 26A587:Starfield.esm
+UnkownInt2: 3
+CastType: FireAndForget
+UnkownInt3: 1065353216
+Flags:
+- DispelWithKeywords
+- NoArea
+- PowerAffectsMagnitude
+Unknown: 0x00000000000000000000000000000000000000000000
+Description:
+  TargetLanguage: English
+  Value: +<mag> O2 for <dur>

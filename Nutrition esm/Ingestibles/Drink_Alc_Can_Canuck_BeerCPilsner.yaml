@@ -1,0 +1,60 @@
+FormKey: 2C720D:Starfield.esm
+EditorID: Drink_Alc_Can_Canuck_BeerCPilsner
+ObjectBounds:
+  First: -0.048292566, -0.041992188, 0.00012207031
+  Second: 0.048442837, 0.041992188, 0.12023926
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 19063C:Starfield.esm
+  Workbench: 19063C:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: CAN-uck! Pilsner
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF287:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\beveragefood_canuckpilsner.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 82d44b6f-dd2e-ac48-94ff-d2e90b2dff96
+DropdownSound:
+  Start: 98fc4756-55dd-c609-39b9-b315de44d9bb
+CraftingSound:
+  Start: 580e474d-4c10-e197-848f-5a4632615aa7
+Description:
+  TargetLanguage: English
+  Value: CAN-uck! brand pilsner beer, sold in their distinct cooler can.
+Resources:
+- Resource: 29B02E:Starfield.esm
+  Count: 1
+Weight: 0.5
+Value: 155
+Flags:
+- NoAutoCalc
+- FoodItem
+Addiction: 000849:Nutrition.esm
+AddictionChance: 0.1
+ConsumeSound:
+  Start: 534d4d1c-5a43-05f7-75ee-feb0fa7771b5
+AddictionName:
+  TargetLanguage: English
+  Value: Alcoholism
+Effects:
+- BaseEffect: 01296E:Starfield.esm
+  Data:
+    Magnitude: 1
+    Duration: 10
+  Magnitude: 00083E:Nutrition.esm
+  Duration: 2D3981:Starfield.esm
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 00083F:Nutrition.esm
+  Data:
+    Magnitude: 1
+  Duration: 00082F:Nutrition.esm
+  EFIF: 0
+  MUID: 2

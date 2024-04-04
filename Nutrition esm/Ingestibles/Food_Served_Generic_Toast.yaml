@@ -1,0 +1,44 @@
+FormKey: 1DFCAE:Starfield.esm
+EditorID: Food_Served_Generic_Toast
+ObjectBounds:
+  First: -0.008483887, -0.07678223, -0.07458496
+  Second: 0.008483887, 0.07659912, 0.07513428
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 092C97:Starfield.esm
+  Workbench: 092C97:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Toast
+Keywords:
+- 022CE6:Starfield.esm
+- 055ECC:Starfield.esm
+Model:
+  File: Items\Toast01.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 4dc44b02-2845-e346-8c71-8303bf7018b7
+DropdownSound:
+  Start: 8e624e84-df1b-644d-6f15-81e61bb78880
+Description:
+  TargetLanguage: English
+  Value: A slice of toasted white bread. Best enjoyed when buttered or jellied, but can be eaten "as is" in a pinch.
+Weight: 0.1
+Value: 35
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000802:Nutrition.esm
+  Duration: 000803:Nutrition.esm
+  EFIF: 0
+  MUID: 1

@@ -1,0 +1,51 @@
+FormKey: 3E3408:Starfield.esm
+EditorID: Drink_NonAlc_ToGoCup_TerraBrew_TerraMacchiato
+ObjectBounds:
+  First: -0.064331055, -0.064575195, 0.0004272461
+  Second: 0.064331055, 0.064575195, 0.20288086
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 092C9D:Starfield.esm
+  Workbench: 092C9D:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: TerraBrew Macchiato
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF285:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: SetDressing\CoffeeToGo\CoffeeToGoCupFull01.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: dff344ea-ea6d-50c5-fc05-7a80dc4ef5b7
+DropdownSound:
+  Start: ce69405a-0899-29e5-d5d2-7ffc28ae8dad
+CraftingSound:
+  Start: 580e474d-4c10-e197-848f-5a4632615aa7
+Description:
+  TargetLanguage: English
+  Value: TerraBrew's original macchiato with foamed milk.
+Resources:
+- Resource: 29B017:Starfield.esm
+  Count: 1
+Weight: 0.3
+Value: 75
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 049e4e48-ef25-50c1-f0bf-12128e5b9682
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 000823:Nutrition.esm
+  Data:
+    Magnitude: 2
+  Magnitude: 000830:Nutrition.esm
+  Duration: 00082F:Nutrition.esm
+  EFIF: 0
+  MUID: 2

@@ -1,0 +1,53 @@
+FormKey: 29A860:Starfield.esm
+EditorID: Food_Packets_SmokedFillet
+ObjectBounds:
+  First: -0.08093262, -0.05569458, -0.0020446777
+  Second: 0.08062744, 0.05557251, 0.023345947
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 161B91:Starfield.esm
+  Workbench: 161B91:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Smoked Salmon Fillet
+Keywords:
+- 055ECC:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_Set\FoodDrink_Set_FishFillet01.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: c348484f-3436-8426-e361-6c4a404095a0
+DropdownSound:
+  Start: 0427411e-45f7-105a-ad6a-3e613666278d
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: A packaged portion of smoked alien salmon.
+Weight: 0.5
+Value: 75
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000800:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 2B9839:Starfield.esm
+  Data: {}
+  Magnitude: 000812:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 2

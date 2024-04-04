@@ -1,0 +1,69 @@
+FormKey: 122E98:Starfield.esm
+EditorID: Food_Craft_StarKebabs
+ObjectBounds:
+  First: -0.15795898, -0.04220581, 0
+  Second: 0.1595459, 0.02041626, 0.03982544
+ODTY: 0
+Transforms:
+  InventoryIcon: 02957E:Starfield.esm
+  Inventory: 14A292:Starfield.esm
+  Workbench: 14A292:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Stellar Kebabs
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF28A:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_crated_consumables\CraftedFood_Container_AlienKebab.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: cb8245c9-d0fb-05dc-a73c-8edc91e6d6a5
+DropdownSound:
+  Start: 8ae049c9-1b29-2f3f-24bb-be9916c31297
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: Cubes of roasted meat, and possibly additional "special" ingredients. Served skewered on a wooden stick, kebab style.
+Weight: 0.5
+Value: 240
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000808:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 2B9839:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000815:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 000826:Nutrition.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000821:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 000825:Nutrition.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000821:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 4

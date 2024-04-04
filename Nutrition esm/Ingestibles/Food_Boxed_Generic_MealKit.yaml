@@ -1,0 +1,55 @@
+FormKey: 191214:Starfield.esm
+EditorID: Food_Boxed_Generic_MealKit
+ObjectBounds:
+  First: -0.15966797, -0.14990234, 0.00079345703
+  Second: 0.15979004, 0.14990234, 0.10083008
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 092C95:Starfield.esm
+  Workbench: 092C95:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Meal Kit
+Keywords:
+- 022CE6:Starfield.esm
+- 055ECC:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\EnjoyFoodItems\Enjoy_FoodBox01.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 017a43f4-42e8-c930-f81c-6e9771713eb2
+DropdownSound:
+  Start: 53c54f53-199e-0c2e-b33e-5d41826593be
+CraftingSound:
+  Start: 580e474d-4c10-e197-848f-5a4632615aa7
+Description:
+  TargetLanguage: English
+  Value: Boxed meal kit.
+Weight: 0.5
+Value: 105
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000800:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 2B9839:Starfield.esm
+  Data:
+    Magnitude: 1
+    Duration: 300
+  Magnitude: 000812:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 2

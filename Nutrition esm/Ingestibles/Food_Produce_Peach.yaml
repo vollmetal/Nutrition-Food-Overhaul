@@ -1,0 +1,56 @@
+FormKey: 003A23:Starfield.esm
+EditorID: Food_Produce_Peach
+ObjectBounds:
+  First: -0.0418396, -0.043792732, 0.0011901906
+  Second: 0.045135498, 0.042694088, 0.08447264
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 0664BE:Starfield.esm
+  Workbench: 0664BE:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Peach
+Keywords:
+- 022CE6:Starfield.esm
+- 055ECC:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\All_Packaged_Consumables\Food_Produce_Peach.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 0f6747ee-efa9-af2a-3771-621e459497be
+DropdownSound:
+  Start: 0310407b-b3a6-3901-ec5a-6a04e426ab8c
+Description:
+  TargetLanguage: English
+  Value: The Settled Systems has many varieties of peach - alien, synthetic and grown from Earth seeds. All are sweet and delicious.
+Resources:
+- Resource: 00084C:Nutrition.esm
+  Count: 1
+Weight: 0.2
+Value: 35
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 272a42ec-27e1-4828-8a81-9451a0659e9b
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 29A84D:Starfield.esm
+  Data:
+    Magnitude: 3
+  Magnitude: 000816:Nutrition.esm
+  Duration: 000803:Nutrition.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 2704CB:Starfield.esm
+  Data:
+    Magnitude: 8
+    Duration: 300
+  Magnitude: 000816:Nutrition.esm
+  Duration: 000803:Nutrition.esm
+  EFIF: 0
+  MUID: 1

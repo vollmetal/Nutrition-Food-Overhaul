@@ -1,0 +1,50 @@
+FormKey: 2C7C09:Starfield.esm
+EditorID: Food_BostaurusLaboratories_Yogurt
+ObjectBounds:
+  First: -0.08259964, -0.15014648, -0.0005187988
+  Second: 0.08988571, 0.1274414, 0.04522705
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 03D204:Starfield.esm
+  Workbench: 03D204:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Yogurt
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF281:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\PackagedFood_Yogurt.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: fa634aeb-ea0f-376f-b039-0e7797b12385
+DropdownSound:
+  Start: 0427411e-45f7-105a-ad6a-3e613666278d
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: Fullfood brand yogurt, served in a convenient foil pouch.
+Resources:
+- Resource: 29B030:Starfield.esm
+  Count: 1
+Weight: 0.2
+Value: 55
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 272a42ec-27e1-4828-8a81-9451a0659e9b
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 150733:Starfield.esm
+  Data: {}
+  Magnitude: 00080E:Nutrition.esm
+  Duration: 000803:Nutrition.esm
+  EFIF: 0
+  MUID: 3

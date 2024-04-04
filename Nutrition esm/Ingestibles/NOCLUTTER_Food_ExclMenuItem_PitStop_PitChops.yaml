@@ -1,0 +1,56 @@
+FormKey: 249C45:Starfield.esm
+EditorID: NOCLUTTER_Food_ExclMenuItem_PitStop_PitChops
+ObjectBounds:
+  First: -0.13745117, -0.1361084, 0
+  Second: 0.13745117, 0.14282227, 0.10321045
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 027C93:Starfield.esm
+  Workbench: 027C93:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Pit Chops
+Keywords:
+- 055ECC:Starfield.esm
+- 249C47:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\pitchops\pitchops.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 6e7947b7-d23c-3bc5-7380-2d6885c51e98
+DropdownSound:
+  Start: 27e6422d-1d0d-42b4-2ff7-a2d0d97540ad
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: Grilled cutlets served with a side of toast.
+Weight: 0.5
+Value: 265
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000808:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 2B9839:Starfield.esm
+  Data:
+    Magnitude: 1
+    Duration: 300
+  Magnitude: 000815:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 2

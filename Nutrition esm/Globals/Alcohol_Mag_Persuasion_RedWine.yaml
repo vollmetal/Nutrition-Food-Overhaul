@@ -1,0 +1,8 @@
+FormKey: 000835:Nutrition.esm
+MajorRecordFlagsRaw: 64
+EditorID: Alcohol_Mag_Persuasion_RedWine
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 0.1
+MajorFlags:
+- Constant

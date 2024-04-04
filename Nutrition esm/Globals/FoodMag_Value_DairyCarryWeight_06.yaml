@@ -1,0 +1,8 @@
+FormKey: 00082A:Nutrition.esm
+MajorRecordFlagsRaw: 64
+EditorID: FoodMag_Value_DairyCarryWeight_06
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 60
+MajorFlags:
+- Constant

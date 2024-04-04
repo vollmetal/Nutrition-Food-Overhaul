@@ -1,0 +1,8 @@
+FormKey: 000831:Nutrition.esm
+MajorRecordFlagsRaw: 64
+EditorID: DrinkMag_Juice_O2Regen
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 10
+MajorFlags:
+- Constant

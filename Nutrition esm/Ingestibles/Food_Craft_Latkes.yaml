@@ -1,0 +1,82 @@
+FormKey: 2383E9:Starfield.esm
+EditorID: Food_Craft_Latkes
+ObjectBounds:
+  First: -0.19006348, -0.11468506, 0
+  Second: 0.19018555, 0.11456299, 0.10003662
+ODTY: 0
+Transforms:
+  InventoryIcon: 029594:Starfield.esm
+  Inventory: 027C94:Starfield.esm
+  Workbench: 027C94:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Latkes
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF28A:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_crated_consumables\CraftedFood_Container_Latkes.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 017a43f4-42e8-c930-f81c-6e9771713eb2
+DropdownSound:
+  Start: 53c54f53-199e-0c2e-b33e-5d41826593be
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: Fritters made from a batter of potatoes, eggs, onions and either flour or matzo meal.
+Weight: 0.5
+Value: 185
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000807:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 2B9839:Starfield.esm
+  Data:
+    Magnitude: 14
+    Duration: 480
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    Unknown1: 0x000000
+    Unknown2: 17620
+    Data:
+      MutagenObjectType: IsTrueForConditionFormConditionData
+      FirstParameter: 1BBAB0:Starfield.esm
+    ComparisonValue: 1
+  Magnitude: 000814:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 29A84D:Starfield.esm
+  Data: {}
+  Magnitude: 000818:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 2704CB:Starfield.esm
+  Data: {}
+  Magnitude: 000818:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 000823:Nutrition.esm
+  Data: {}
+  Magnitude: 00081C:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 5

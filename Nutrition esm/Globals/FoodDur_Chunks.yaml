@@ -1,0 +1,8 @@
+FormKey: 000804:Nutrition.esm
+MajorRecordFlagsRaw: 64
+EditorID: FoodDur_Chunks
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 900
+MajorFlags:
+- Constant

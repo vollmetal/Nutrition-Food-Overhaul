@@ -1,0 +1,51 @@
+FormKey: 249C49:Starfield.esm
+EditorID: Drink_NonAlc_Can_CanUck_CoffeeDoubleDouble
+ObjectBounds:
+  First: -0.04199272, -0.041992206, 0.00012207031
+  Second: 0.041991655, 0.04199217, 0.12023926
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 1017B3:Starfield.esm
+  Workbench: 03D203:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: CAN-uck! Double Double
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF287:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\BeverageMenu_CANUck_DoubleDouble.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 82d44b6f-dd2e-ac48-94ff-d2e90b2dff96
+DropdownSound:
+  Start: 98fc4756-55dd-c609-39b9-b315de44d9bb
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: CAN-uck! brand coffee, sold in their distinct and trademarked can.
+Resources:
+- Resource: 29B017:Starfield.esm
+  Count: 1
+Weight: 0.5
+Value: 75
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 534d4d1c-5a43-05f7-75ee-feb0fa7771b5
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 237E51:Starfield.esm
+  Data:
+    Magnitude: 2
+  Magnitude: 000832:Nutrition.esm
+  Duration: 00082F:Nutrition.esm
+  EFIF: 0
+  MUID: 1

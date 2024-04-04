@@ -1,0 +1,8 @@
+FormKey: 000843:Nutrition.esm
+MajorRecordFlagsRaw: 64
+EditorID: Alcohol_Mag_DamageResist_Crafted
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 100
+MajorFlags:
+- Constant

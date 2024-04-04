@@ -1,0 +1,56 @@
+FormKey: 2C7C0D:Starfield.esm
+EditorID: Food_Craft_Chapaguri
+ObjectBounds:
+  First: -0.19006348, -0.11468506, 0
+  Second: 0.19018555, 0.11456299, 0.10003662
+ODTY: 0
+Transforms:
+  InventoryIcon: 029594:Starfield.esm
+  Inventory: 027C94:Starfield.esm
+  Workbench: 027C94:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Chapaguri
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF28A:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_crated_consumables\CraftedFood_Container_Chapaguri.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 017a43f4-42e8-c930-f81c-6e9771713eb2
+DropdownSound:
+  Start: 53c54f53-199e-0c2e-b33e-5d41826593be
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: A savory noodle dish served with steak. Often enjoyed as a snack, and considered a comfort food.
+Weight: 0.5
+Value: 185
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000808:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 000823:Nutrition.esm
+  Data:
+    Magnitude: 0.02
+    Duration: 1800
+  Magnitude: 00081D:Nutrition.esm
+  Duration: 2B981F:Starfield.esm
+  EFIF: 0
+  MUID: 2

@@ -1,0 +1,29 @@
+FormKey: 29B00B:Starfield.esm
+EditorID: co_food_OldEarthCuisine_BarbacoaWrap
+Description:
+  TargetLanguage: English
+  Value: Slow-braised beef and vegetables, served sandwich-style in a corn tortilla.
+WorkbenchKeyword: 102152:Starfield.esm
+Conditions:
+- MutagenObjectType: ConditionFloat
+  Unknown1: 0x000000
+  Unknown2: 17624
+  Data:
+    MutagenObjectType: IsResearchCompleteConditionData
+    FirstParameter: 389F03:Starfield.esm
+  ComparisonValue: 1
+ConstructableComponents:
+- Component: 07782E:Starfield.esm
+  Count: 1
+- Component: 29B02A:Starfield.esm
+  Count: 1
+- Component: 29B03B:Starfield.esm
+  Count: 1
+- Component: 29B033:Starfield.esm
+  Count: 1
+CreatedObject: 29B054:Starfield.esm
+AmountProduced: 1
+LearnMethod: DefaultOrConditions
+Categories:
+- 2C6660:Starfield.esm
+RECF: 0

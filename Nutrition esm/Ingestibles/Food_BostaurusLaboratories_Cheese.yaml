@@ -1,0 +1,50 @@
+FormKey: 1FC9C1:Starfield.esm
+EditorID: Food_BostaurusLaboratories_Cheese
+ObjectBounds:
+  First: -0.14892578, -0.04647827, -9.1552734E-05
+  Second: 0.18151855, 0.045135498, 0.093322754
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 03D202:Starfield.esm
+  Workbench: 03D202:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Cheese
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF281:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\fooddrink_singleitems/all_packaged_consumables\PackagedFood_Cheese01.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: cb8245c9-d0fb-05dc-a73c-8edc91e6d6a5
+DropdownSound:
+  Start: 8ae049c9-1b29-2f3f-24bb-be9916c31297
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: Bostaurus Laboratories' finest cheese. Extra sharp.
+Resources:
+- Resource: 29B02A:Starfield.esm
+  Count: 1
+Weight: 0.2
+Value: 55
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 272a42ec-27e1-4828-8a81-9451a0659e9b
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 150733:Starfield.esm
+  Data: {}
+  Magnitude: 00080E:Nutrition.esm
+  Duration: 000803:Nutrition.esm
+  EFIF: 0
+  MUID: 3

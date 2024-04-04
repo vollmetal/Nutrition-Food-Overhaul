@@ -1,0 +1,58 @@
+FormKey: 30283C:Starfield.esm
+EditorID: Food_Pack_Oishii_Seaweed_Individual
+ObjectBounds:
+  First: -0.078552246, -0.12390137, 0
+  Second: 0.078552246, 0.12261963, 0.13891602
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 03D201:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Seaweed Snacks
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF27F:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\Seaweed_Snacks\Seaweed_Snacks_Individual.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 017a43f4-42e8-c930-f81c-6e9771713eb2
+DropdownSound:
+  Start: 53c54f53-199e-0c2e-b33e-5d41826593be
+Description:
+  TargetLanguage: English
+  Value: A snack of dried alien seaweed, seasoned and dusted with sesame seeds. Single serving size.
+Weight: 0.5
+Value: 105
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000806:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 2704CB:Starfield.esm
+  Data: {}
+  Magnitude: 000817:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 29A84D:Starfield.esm
+  Data: {}
+  Magnitude: 000817:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 3

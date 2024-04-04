@@ -1,0 +1,56 @@
+FormKey: 003A26:Starfield.esm
+EditorID: Food_Produce_Potato
+ObjectBounds:
+  First: -0.09423828, -0.05432129, 0.00079345703
+  Second: 0.08441162, 0.05328369, 0.08544922
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 0664BD:Starfield.esm
+  Workbench: 0664BD:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Potato
+Keywords:
+- 022CE6:Starfield.esm
+- 055ECC:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\All_Packaged_Consumables\Food_Produce_Potato.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 0f6747ee-efa9-af2a-3771-621e459497be
+DropdownSound:
+  Start: 0310407b-b3a6-3901-ec5a-6a04e426ab8c
+Description:
+  TargetLanguage: English
+  Value: Can be prepared many ways. Boiled, mashed, used in a stew - the recipes are nearly limitless.
+Resources:
+- Resource: 00084C:Nutrition.esm
+  Count: 1
+Weight: 0.2
+Value: 35
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 272a42ec-27e1-4828-8a81-9451a0659e9b
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 29A84D:Starfield.esm
+  Data:
+    Magnitude: 3
+  Magnitude: 000816:Nutrition.esm
+  Duration: 000803:Nutrition.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 2704CB:Starfield.esm
+  Data:
+    Magnitude: 8
+    Duration: 300
+  Magnitude: 000816:Nutrition.esm
+  Duration: 000803:Nutrition.esm
+  EFIF: 0
+  MUID: 1

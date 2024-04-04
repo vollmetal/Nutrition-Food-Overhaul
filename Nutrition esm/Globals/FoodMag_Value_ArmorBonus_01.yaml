@@ -1,0 +1,8 @@
+FormKey: 00081F:Nutrition.esm
+MajorRecordFlagsRaw: 64
+EditorID: FoodMag_Value_ArmorBonus_01
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 25
+MajorFlags:
+- Constant

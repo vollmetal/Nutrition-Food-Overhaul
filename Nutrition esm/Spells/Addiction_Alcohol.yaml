@@ -1,0 +1,42 @@
+FormKey: 000849:Nutrition.esm
+EditorID: Addiction_Alcohol
+ODTY: 0
+Name:
+  TargetLanguage: English
+  Value: Alcoholism
+EquipmentType: 013F44:Starfield.esm
+Description:
+  TargetLanguage: English
+  Value: ''
+Type:
+- Power
+- 0x8
+Effects:
+- BaseEffect: 268D37:Starfield.esm
+  Data:
+    Magnitude: 20
+  Magnitude: 066523:Starfield.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 16AF62:Starfield.esm
+  Data:
+    Magnitude: 20
+  Magnitude: 066536:Starfield.esm
+  EFIF: 0
+  MUID: 5
+- BaseEffect: 104790:Starfield.esm
+  Data:
+    Magnitude: 20
+  Magnitude: 066536:Starfield.esm
+  EFIF: 0
+  MUID: 6
+- BaseEffect: 02A74C:Starfield.esm
+  Data:
+    Magnitude: 1
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 1EB997:Starfield.esm
+  Data:
+    Magnitude: 1
+  EFIF: 0
+  MUID: 4

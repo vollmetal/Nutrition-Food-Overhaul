@@ -1,0 +1,8 @@
+FormKey: 000830:Nutrition.esm
+MajorRecordFlagsRaw: 64
+EditorID: DrinkMag_Water_XP
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 0.1
+MajorFlags:
+- Constant

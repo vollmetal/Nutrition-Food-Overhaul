@@ -1,0 +1,48 @@
+FormKey: 29B013:Starfield.esm
+EditorID: Food_RedHarvest_Rice
+ObjectBounds:
+  First: -0.059509277, -0.027770996, -0.0015563965
+  Second: 0.059509277, 0.027770996, 0.24060059
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 092BC7:Starfield.esm
+  Workbench: 092BC7:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Red Harvest Rice
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF27D:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\PackagedFood_Rice.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: fa634aeb-ea0f-376f-b039-0e7797b12385
+DropdownSound:
+  Start: 0427411e-45f7-105a-ad6a-3e613666278d
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: Red Harvest brand rice. Manufactured using the company's proprietary genetic modification technology.
+Weight: 0.2
+Value: 55
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 272a42ec-27e1-4828-8a81-9451a0659e9b
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000802:Nutrition.esm
+  Duration: 000803:Nutrition.esm
+  EFIF: 0
+  MUID: 1

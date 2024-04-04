@@ -1,0 +1,68 @@
+FormKey: 249C2E:Starfield.esm
+EditorID: NOCLUTTER_Food_ExclMenuItem_AstralLounge_MelonCaviar
+ObjectBounds:
+  First: -0.13378906, -0.13378906, 6.1035156E-05
+  Second: 0.13378906, 0.13378906, 0.0640869
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 027C93:Starfield.esm
+  Workbench: 027C93:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Melon Caviar
+Keywords:
+- 055ECC:Starfield.esm
+- 249C2F:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\Melon_Caviar\Melon_Caviar.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 6e7947b7-d23c-3bc5-7380-2d6885c51e98
+DropdownSound:
+  Start: 27e6422d-1d0d-42b4-2ff7-a2d0d97540ad
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: 'Small balls of melon stuffed with local caviar. A Neon delicacy. '
+Weight: 0.5
+Value: 1055
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 272a42ec-27e1-4828-8a81-9451a0659e9b
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000808:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 2B9839:Starfield.esm
+  Data:
+    Magnitude: 1
+    Duration: 300
+  Magnitude: 000815:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 2704CB:Starfield.esm
+  Data: {}
+  Magnitude: 000819:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 29A84D:Starfield.esm
+  Data: {}
+  Magnitude: 000819:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 4

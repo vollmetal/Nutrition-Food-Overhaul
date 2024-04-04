@@ -1,0 +1,51 @@
+FormKey: 2C723F:Starfield.esm
+EditorID: Food_RedHarvest_NaanBread
+ObjectBounds:
+  First: -0.097595215, -0.13720703, -0.007843018
+  Second: 0.09698486, 0.1295166, 0.024902344
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 037482:Starfield.esm
+  Workbench: 037482:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Red Harvest Naan
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF27D:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\PackagedFood_NaanBread.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 4dc44b02-2845-e346-8c71-8303bf7018b7
+DropdownSound:
+  Start: 8e624e84-df1b-644d-6f15-81e61bb78880
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: Red Harvest brand naan bread. Manufactured using the company's proprietary genetic modification technology.
+Resources:
+- Resource: 29B033:Starfield.esm
+  Count: 1
+Weight: 0.2
+Value: 55
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 272a42ec-27e1-4828-8a81-9451a0659e9b
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000802:Nutrition.esm
+  Duration: 000803:Nutrition.esm
+  EFIF: 0
+  MUID: 1

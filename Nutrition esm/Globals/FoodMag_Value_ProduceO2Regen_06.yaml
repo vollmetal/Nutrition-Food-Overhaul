@@ -1,0 +1,8 @@
+FormKey: 00082E:Nutrition.esm
+MajorRecordFlagsRaw: 64
+EditorID: FoodMag_Value_ProduceO2Regen_06
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 60
+MajorFlags:
+- Constant

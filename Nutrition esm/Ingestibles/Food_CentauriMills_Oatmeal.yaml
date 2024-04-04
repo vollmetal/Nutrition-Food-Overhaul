@@ -1,0 +1,48 @@
+FormKey: 2C7234:Starfield.esm
+EditorID: Food_CentauriMills_Oatmeal
+ObjectBounds:
+  First: -0.075927734, -0.075927734, 0
+  Second: 0.075927734, 0.075927734, 0.109191895
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 190642:Starfield.esm
+  Workbench: 190642:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Instant Oatmeal
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF280:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\packagedfood_instantoatmeal.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: a8e4469b-3bea-d6fe-2cbf-c2ffdbadd5b3
+DropdownSound:
+  Start: 617d405b-e40d-1b44-6f8e-5fcaf8664ba1
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: Centauri Mills' steel-cut Irish oatmeal.
+Weight: 0.3
+Value: 90
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000800:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 1

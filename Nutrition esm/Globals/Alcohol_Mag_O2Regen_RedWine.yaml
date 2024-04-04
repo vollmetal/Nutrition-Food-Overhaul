@@ -1,0 +1,8 @@
+FormKey: 000839:Nutrition.esm
+MajorRecordFlagsRaw: 64
+EditorID: Alcohol_Mag_O2Regen_RedWine
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 15
+MajorFlags:
+- Constant

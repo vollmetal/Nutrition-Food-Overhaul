@@ -1,0 +1,8 @@
+FormKey: 00083E:Nutrition.esm
+MajorRecordFlagsRaw: 64
+EditorID: Alcohol_Mag_MeleeBonus_Beer
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 20
+MajorFlags:
+- Constant

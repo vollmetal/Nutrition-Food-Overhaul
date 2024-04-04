@@ -1,0 +1,23 @@
+FormKey: 150733:Starfield.esm
+EditorID: Dairy Fortify Carry Weight
+Name:
+  TargetLanguage: English
+  Value: Dairy Fortify Carry Weight
+Keywords:
+- 1080B9:Starfield.esm
+- 00084E:Nutrition.esm
+ActorValue2: 0002DC:Starfield.esm
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+  Association: 26A58A:Starfield.esm
+UnkownInt2: 3
+CastType: FireAndForget
+UnkownInt3: 1065353216
+Flags:
+- DispelWithKeywords
+- NoArea
+- PowerAffectsMagnitude
+Unknown: 0x00000000000000000000000000000000000000000000
+Description:
+  TargetLanguage: English
+  Value: +<mag> Carry Capacity for <dur>

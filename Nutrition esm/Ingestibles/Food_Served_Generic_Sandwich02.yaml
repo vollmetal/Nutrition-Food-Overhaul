@@ -1,0 +1,73 @@
+FormKey: 2543B8:Starfield.esm
+EditorID: Food_Served_Generic_Sandwich02
+ObjectBounds:
+  First: -0.09680176, -0.085754395, 0
+  Second: 0.079833984, 0.087524414, 0.045196533
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 092BCB:Starfield.esm
+  Workbench: 092BCB:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Bitten Sandwich
+Keywords:
+- 022CE6:Starfield.esm
+- 055ECC:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Architecture\Outpost\OutpostIndustrial\Interiors\Pod\OpiInd_Sandwich02.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: a7594285-de62-85de-40b4-4285854b67a8
+DropdownSound:
+  Start: 8e624e84-df1b-644d-6f15-81e61bb78880
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: A salami and cheese sandwich. Clearly delicious, as evidenced by the large bite taken out of it.
+Weight: 0.3
+Value: 75
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000800:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 2B9839:Starfield.esm
+  Data:
+    Magnitude: 1
+    Duration: 300
+  Magnitude: 000812:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 2704CB:Starfield.esm
+  Data: {}
+  Magnitude: 000816:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 3
+- BaseEffect: 29A84D:Starfield.esm
+  Data: {}
+  Magnitude: 000816:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 4
+- BaseEffect: 150733:Starfield.esm
+  Data: {}
+  Magnitude: 00080E:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 5

@@ -1,0 +1,50 @@
+FormKey: 2C7213:Starfield.esm
+EditorID: Drink_NonAlc_DrinkPack_Generic_MilkKefir
+ObjectBounds:
+  First: -0.08290314, -0.14404297, -9.1552734E-05
+  Second: 0.086286314, 0.15563965, 0.04699707
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B07:Starfield.esm
+  Inventory: 05EEFB:Starfield.esm
+  Workbench: 05EEFB:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Kefir
+Keywords:
+- 055ECC:Starfield.esm
+- 14253C:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\Packagedfood_Kefir.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 9c0b4bd9-94a3-2830-95b8-a81a1a60e791
+DropdownSound:
+  Start: 9f4d405b-17a2-133b-d6b8-9f02bc4afa91
+CraftingSound:
+  Start: 580e474d-4c10-e197-848f-5a4632615aa7
+Description:
+  TargetLanguage: English
+  Value: A fermented milk drink with the consistency of a thin yogurt.
+Resources:
+- Resource: 29B030:Starfield.esm
+  Count: 1
+Weight: 0.3
+Value: 140
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 150733:Starfield.esm
+  Data:
+    Magnitude: 2
+  Magnitude: 000810:Nutrition.esm
+  Duration: 00082F:Nutrition.esm
+  EFIF: 0
+  MUID: 1

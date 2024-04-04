@@ -1,0 +1,56 @@
+FormKey: 249C4C:Starfield.esm
+EditorID: Food_Served_CanUck_HamBoys
+ObjectBounds:
+  First: -0.13745117, -0.1361084, 1.0950316E-08
+  Second: 0.13745117, 0.14282225, 0.08587644
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 027C93:Starfield.esm
+  Workbench: 027C93:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: CAN-uck! Ham Boys
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF287:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\Ham_Boys\Ham_Boy.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 7f2e4656-a1b7-7cd1-e3c8-437d95cc45ad
+DropdownSound:
+  Start: 35ea4a6d-6e18-4d25-1a9e-3d6c3501b785
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: CAN-uck! brand sandwich sliders. Uncanned.
+Weight: 0.5
+Value: 105
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 2f9b471d-5e5e-d17f-1de1-6cd923c67481
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000806:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 1
+- BaseEffect: 2B9839:Starfield.esm
+  Data:
+    Magnitude: 1
+    Duration: 300
+  Magnitude: 000813:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 2

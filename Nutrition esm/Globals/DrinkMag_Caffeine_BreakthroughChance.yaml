@@ -1,0 +1,8 @@
+FormKey: 000833:Nutrition.esm
+MajorRecordFlagsRaw: 64
+EditorID: DrinkMag_Caffeine_BreakthroughChance
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 10
+MajorFlags:
+- Constant

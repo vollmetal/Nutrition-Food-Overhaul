@@ -1,0 +1,48 @@
+FormKey: 249C3F:Starfield.esm
+EditorID: NOCLUTTER_Food_ExclMenuItem_Xenofresh_Trawl
+ObjectBounds:
+  First: -0.06604004, -0.03552246, -0.0004272461
+  Second: 0.06604004, 0.035461426, 0.1899414
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 03D201:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Trawl
+Keywords:
+- 055ECC:Starfield.esm
+- 249C43:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\Trawl\Food_RS_Xenofresh_Trawl.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: fa634aeb-ea0f-376f-b039-0e7797b12385
+DropdownSound:
+  Start: 0427411e-45f7-105a-ad6a-3e613666278d
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: A drinkable meal substitute, high in protein and nutritional value. Made from processed Chasmbass scraps.
+Weight: 0.5
+Value: 265
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: abcc440c-55e5-bbd4-167f-b9ab79fae3b3
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000807:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 1

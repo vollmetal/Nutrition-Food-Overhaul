@@ -1,0 +1,49 @@
+FormKey: 1EDF0F:Starfield.esm
+EditorID: Food_Pack_Oishii_Udon_Individual
+ObjectBounds:
+  First: -0.078552246, -0.12243652, 0.00048828125
+  Second: 0.078552246, 0.12365723, 0.13952637
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 03D201:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Udon
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF27F:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\Udon\Udon_Individual.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 017a43f4-42e8-c930-f81c-6e9771713eb2
+DropdownSound:
+  Start: 53c54f53-199e-0c2e-b33e-5d41826593be
+Description:
+  TargetLanguage: English
+  Value: Oishii brand udon noodles. Single serving size.
+Resources:
+- Resource: 29B036:Starfield.esm
+  Count: 1
+Weight: 0.5
+Value: 105
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000806:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 1

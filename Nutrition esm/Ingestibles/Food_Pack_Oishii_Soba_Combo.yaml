@@ -1,0 +1,51 @@
+FormKey: 1EDDE6:Starfield.esm
+EditorID: Food_Pack_Oishii_Soba_Combo
+ObjectBounds:
+  First: -0.17126465, -0.12634279, 0.00048828125
+  Second: 0.17126465, 0.12475585, 0.3857422
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 03D201:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Soba Multipack
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF27F:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A479:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\Soba\Soba_ComboPack.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 017a43f4-42e8-c930-f81c-6e9771713eb2
+DropdownSound:
+  Start: 53c54f53-199e-0c2e-b33e-5d41826593be
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: Oishii brand soba noodles. Packaged in bulk.
+Resources:
+- Resource: 29B036:Starfield.esm
+  Count: 1
+Weight: 1.5
+Value: 155
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 2f9b471d-5e5e-d17f-1de1-6cd923c67481
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000808:Nutrition.esm
+  Duration: 000805:Nutrition.esm
+  EFIF: 0
+  MUID: 1

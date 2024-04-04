@@ -1,0 +1,48 @@
+FormKey: 20676B:Starfield.esm
+EditorID: Food_ChunksSingle_Chunks_CheeseSteak
+ObjectBounds:
+  First: -0.038513165, -0.03939823, -0.0040740343
+  Second: 0.038085956, 0.039398156, 0.062088076
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 0664C5:Starfield.esm
+  Workbench: 0664C5:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Chunks Cheesesteak
+Keywords:
+- 055ECC:Starfield.esm
+- 249C5C:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\FoodChunk\Chunk_Food_CheeseSteak_Single.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: cb8245c9-d0fb-05dc-a73c-8edc91e6d6a5
+DropdownSound:
+  Start: 8ae049c9-1b29-2f3f-24bb-be9916c31297
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: A cheesesteak-flavored Chunks food cube. Contains neither real steak, nor real cheese.
+Weight: 0.2
+Value: 75
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000801:Nutrition.esm
+  Duration: 000804:Nutrition.esm
+  EFIF: 0
+  MUID: 1

@@ -1,0 +1,48 @@
+FormKey: 20676A:Starfield.esm
+EditorID: Food_ChunksPack_Chunks_Chicken
+ObjectBounds:
+  First: -0.08777663, -0.170483, -0.0047740806
+  Second: 0.08751632, 0.13811073, 0.061663955
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 0664CA:Starfield.esm
+  Workbench: 0664CA:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Chunks Chick - Packaged
+Keywords:
+- 055ECC:Starfield.esm
+- 249C5C:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A479:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\FoodChunk\Chunk_Food_Chicken_Pack.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 15e34c07-7068-400b-7d8b-a0ac4a3331b1
+DropdownSound:
+  Start: a7514a90-7fd9-c88b-ae1c-67330428f394
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: A chicken-flavored Chunks food cube. Packaged for freshness.
+Weight: 0.2
+Value: 105
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000801:Nutrition.esm
+  Duration: 000804:Nutrition.esm
+  EFIF: 0
+  MUID: 1

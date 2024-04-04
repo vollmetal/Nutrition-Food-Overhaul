@@ -1,0 +1,8 @@
+FormKey: 00081B:Nutrition.esm
+MajorRecordFlagsRaw: 64
+EditorID: FoodMag_Value_ExpBonus_01
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 0.1
+MajorFlags:
+- Constant

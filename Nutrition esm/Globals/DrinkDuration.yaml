@@ -1,0 +1,8 @@
+FormKey: 00082F:Nutrition.esm
+MajorRecordFlagsRaw: 64
+EditorID: DrinkDuration
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 600
+MajorFlags:
+- Constant

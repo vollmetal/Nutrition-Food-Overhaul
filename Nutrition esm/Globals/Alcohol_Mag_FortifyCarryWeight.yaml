@@ -1,0 +1,8 @@
+FormKey: 00084A:Nutrition.esm
+MajorRecordFlagsRaw: 64
+EditorID: Alcohol_Mag_FortifyCarryWeight
+StarfieldMajorRecordFlags:
+- 0x40
+Data: 20
+MajorFlags:
+- Constant

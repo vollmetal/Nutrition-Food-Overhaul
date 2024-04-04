@@ -1,0 +1,55 @@
+FormKey: 003A1F:Starfield.esm
+EditorID: Food_Produce_Onion
+ObjectBounds:
+  First: -0.051116943, -0.05166626, 0.00045776367
+  Second: 0.051116943, 0.05166626, 0.08648682
+ODTY: 0
+Transforms:
+  Inventory: 0E0360:Starfield.esm
+  Workbench: 0E0360:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Onion
+Keywords:
+- 022CE6:Starfield.esm
+- 055ECC:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\All_Packaged_Consumables\Food_Produce_Onion.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 0f6747ee-efa9-af2a-3771-621e459497be
+DropdownSound:
+  Start: 0310407b-b3a6-3901-ec5a-6a04e426ab8c
+Description:
+  TargetLanguage: English
+  Value: A common yellow onion. Delicious sautÃ©ed and in soups.
+Resources:
+- Resource: 00084C:Nutrition.esm
+  Count: 1
+Weight: 0.2
+Value: 35
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 272a42ec-27e1-4828-8a81-9451a0659e9b
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 29A84D:Starfield.esm
+  Data:
+    Magnitude: 3
+  Magnitude: 000816:Nutrition.esm
+  Duration: 000803:Nutrition.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 2704CB:Starfield.esm
+  Data:
+    Magnitude: 8
+    Duration: 300
+  Magnitude: 000816:Nutrition.esm
+  Duration: 000803:Nutrition.esm
+  EFIF: 0
+  MUID: 1

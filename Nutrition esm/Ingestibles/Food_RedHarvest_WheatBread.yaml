@@ -1,0 +1,51 @@
+FormKey: 2C723D:Starfield.esm
+EditorID: Food_RedHarvest_WheatBread
+ObjectBounds:
+  First: -0.09277344, -0.19042969, -0.0024414062
+  Second: 0.09326172, 0.18554688, 0.04345703
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 03D201:Starfield.esm
+  Workbench: 03D201:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Red Harvest Wheat
+Keywords:
+- 055ECC:Starfield.esm
+- 2CF27D:Starfield.esm
+- 022CE6:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\all_packaged_consumables\PackagedFood_WheatBread.nif
+  FLLD: 0x03000000
+PickupSound:
+  Start: fa634aeb-ea0f-376f-b039-0e7797b12385
+DropdownSound:
+  Start: 0427411e-45f7-105a-ad6a-3e613666278d
+CraftingSound:
+  Start: 35d54406-a8ad-3d76-0585-057058aa9faa
+Description:
+  TargetLanguage: English
+  Value: Red Harvest brand wheat bread. Manufactured using the company's proprietary genetic modification technology.
+Resources:
+- Resource: 29B033:Starfield.esm
+  Count: 1
+Weight: 0.2
+Value: 55
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 520f488c-bade-0b56-bf24-a28b60aca3ba
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 00397E:Starfield.esm
+  Data:
+    Magnitude: 1
+  Magnitude: 000802:Nutrition.esm
+  Duration: 000803:Nutrition.esm
+  EFIF: 0
+  MUID: 1

@@ -1,0 +1,22 @@
+FormKey: 00397E:Starfield.esm
+EditorID: RestoreHealthFromFoodDuration
+Name:
+  TargetLanguage: English
+  Value: Fed
+Keywords:
+- 1080B9:Starfield.esm
+- 00084D:Nutrition.esm
+ActorValue2: 0002D4:Starfield.esm
+Archetype:
+  MutagenObjectType: MagicEffectPeakValueModArchetype
+UnkownInt2: 3
+CastType: FireAndForget
+UnkownInt3: 1065353216
+Flags:
+- DispelWithKeywords
+- NoArea
+- PowerAffectsMagnitude
+Unknown: 0x00000000000000000000000000000000000000000000
+Description:
+  TargetLanguage: English
+  Value: Restores <mag> Health/s for <dur>

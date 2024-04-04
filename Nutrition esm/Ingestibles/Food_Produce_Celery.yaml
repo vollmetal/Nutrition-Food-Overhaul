@@ -1,0 +1,56 @@
+FormKey: 092B99:Starfield.esm
+EditorID: Food_Produce_Celery
+ObjectBounds:
+  First: -0.0657959, -0.13098145, -0.047302246
+  Second: 0.0914917, 0.23962402, 0.111694336
+ODTY: 0
+Transforms:
+  InventoryIcon: 174B06:Starfield.esm
+  Inventory: 0664CE:Starfield.esm
+  Workbench: 0664CE:Starfield.esm
+Name:
+  TargetLanguage: English
+  Value: Celery
+Keywords:
+- 022CE6:Starfield.esm
+- 055ECC:Starfield.esm
+- 11A47A:Starfield.esm
+Model:
+  File: Items\FoodDrink_SingleItems\All_Packaged_Consumables\Food_Produce_Celery.nif
+  FLLD: 0x01000000
+PickupSound:
+  Start: 0f6747ee-efa9-af2a-3771-621e459497be
+DropdownSound:
+  Start: 0310407b-b3a6-3901-ec5a-6a04e426ab8c
+Description:
+  TargetLanguage: English
+  Value: A stalk of celery. Especially delicious when paired with synthetic peanut butter.
+Resources:
+- Resource: 00084C:Nutrition.esm
+  Count: 1
+Weight: 0.2
+Value: 35
+Flags:
+- NoAutoCalc
+- FoodItem
+ConsumeSound:
+  Start: 272a42ec-27e1-4828-8a81-9451a0659e9b
+AddictionName:
+  TargetLanguage: English
+  Value: ''
+Effects:
+- BaseEffect: 29A84D:Starfield.esm
+  Data:
+    Magnitude: 3
+  Magnitude: 000816:Nutrition.esm
+  Duration: 000803:Nutrition.esm
+  EFIF: 0
+  MUID: 2
+- BaseEffect: 2704CB:Starfield.esm
+  Data:
+    Magnitude: 8
+    Duration: 300
+  Magnitude: 000816:Nutrition.esm
+  Duration: 000803:Nutrition.esm
+  EFIF: 0
+  MUID: 1
